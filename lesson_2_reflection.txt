@@ -1,0 +1,9 @@
+Reflection on Lesson 2:
+
+What I learned:
+- ls -a to show hidden files (beginning with a .), too
+- "git init" to change a normal directory into a git repository
+- "git status" to show the status of the repository (most recent commit, tracked files)
+
+Question 1: What happens when you initialize a repository? Why do you need to do it?
+Reflection: When you initialize a repository Git will create a .git file where it will save the history for all the files in the repository to keep track of them and allow version control to work.
