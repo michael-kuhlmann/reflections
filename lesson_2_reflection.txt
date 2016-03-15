@@ -7,3 +7,11 @@ What I learned:
 
 Question 1: What happens when you initialize a repository? Why do you need to do it?
 Reflection: When you initialize a repository Git will create a .git file where it will save the history for all the files in the repository to keep track of them and allow version control to work.
+
+What I learned: 
+- Git has a staging area between working directory and repository so you can decide what to commit
+- You can add files with "git add" to the staging area to keep track of them
+- "git reset" to remove tracked files from the staging area
+
+Question 2: How is the staging area different from the working directory and the repository? What value do you think it offers?
+Reflection: You can not see the files in the staging area physically. It is a virtual space that contains files you want to track. You have the chance to decide which files should be in the staging area: When you create a file in your working directory it will be in it and when you do a commit all files that should be tracked are saved in the repository. So the staging area allows you to control the files that should be keep track of.
