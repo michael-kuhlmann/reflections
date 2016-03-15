@@ -1,0 +1,64 @@
+Reflection on Lesson 1 
+
+What I learned: 
+- Open Sublime Text 2 with subl in terminal
+- use diff -u <old data> <new data> to compare differences in terminal
+
+Question 1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Reflection: By viewing the diff you only see the lines that really have changed and so you can focus on them without worrying to miss something.Besides, the longer the code is the less differences you get compared to the total lines of code. 
+
+What I learned:
+- Version Control is used by: Saving Manual Copies, Dropbox, Google Docs, Wikipedia
+
+Question 2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Reflection: Having access to the history of a single file makes it unnecessary to save it manually so it saves time. Additionally, you can easily see when the older versions were created and fastly choose the right one for comparing it with the latest version.
+
+What I learned:
+- Version Control is used by: Git, SVN, Mercury, ...
+- Manual saving versions vs Automatically saving versions
+- "git log" to see all changes made in the directory
+- "git diff <id1> <id2>" to compare two versions of the file with <id1> and <id2>
+- "git commit" to push your version on the repository
+
+Question 3: What do you think are the pros and cons of manually choosing where to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Reflection:
+Pros:
+	+ You only commit what compiles
+	+ Your commits will neither get to large nor small
+	+ You can make a comment on each commit so it is easier for others to catch up with your thoughts
+Cons: 
+	- Each person has a different understanding of when to commit
+	- When you forget to commit for a long time and your workspace crashes, your work will probably get lost
+
+What I learned:
+- Git stores all commited files in the repository
+- If you have more than one file you can see all the commits of the files at one point of time
+- Comparing two commits leads to the comparison of all files in the repository that have changed
+
+Question 4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Reflection:
+Multiple files:
+	- Working on a big project with many files lets you have easy access to a version that is working correctly
+	- Only one commit for changes on different files
+Separately:
+	- You only have to commit what have changed 
+	- It is easier to follow the history of one file
+
+What I learned:
+- git clone <url> to copy the repository given by the url to your computer
+- git log to see the history
+- Colored Output: git config --global color.ui auto
+- git diff <id1> <id2> to compare to versions
+- exit log with q (quit)
+
+Question 5: How can you use the commands git log and git diff to view the history of files?
+Reflection: With "git log" you can see all the changes that have been made to this file since the first commit. The comments help to understand fastly what changes have been made. Using "git diff <id1> <id2>" lets you see what has changed in detail between two commits, i.e. what has been removed and what has been added.
+
+What I learned:
+- "git checkout <id>" to load an older commited version
+
+Question 6: How might using verion control make you more confident to make changes that could break something?
+Reflection: If you commit something that compiles with a bug you can just restore a version that works correctly and then compare these version to see what the bug caused.
+
+Question 7: Now that you have your workspace set up, what do you wnat to try using Git for?
+Reflection: Using it for my SHK position at the University of Paderborn to program DNN with Python. Or using it for "Team Entwurfs- und Softwareprojekt" in the 4th semester. 
