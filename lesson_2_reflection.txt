@@ -39,3 +39,11 @@ Reflection:
 	- Same version in another language
 	- A new version with slightly differences but still the same functions
 The branches are used to have different versions quickly accessable. These versions are desired to be separated because they do not represent an update of the current version but a new version that should be worked on next to the original version.
+
+What I learned:
+- "git checkout -b <new_branch_name>" to create a new branch at current commit and change into it
+- "git log --graph --oneline <branch1> <branch2>" to visualize what commits do branch1 and branch2 have in common and where they differ
+- Reachability: Each commit c has a parent which is the commit that is checked out when c gets commited
+
+Question 5: How do the diagrams help you visualize the branch structure?
+Reflection: The diagrams show where the branches are still in common and where they first branch. Moreover, they show which commits belong to which branch. With this you can easily construct the branch structure.
