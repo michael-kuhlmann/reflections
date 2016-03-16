@@ -15,3 +15,13 @@ What I learned:
 
 Question 2: How is the staging area different from the working directory and the repository? What value do you think it offers?
 Reflection: You can not see the files in the staging area physically. It is a virtual space that contains files you want to track. You have the chance to decide which files should be in the staging area: When you create a file in your working directory it will be in it and when you do a commit all files that should be tracked are saved in the repository. So the staging area allows you to control the files that should be keep track of.
+
+What I learned: 
+- "git diff" to compare working directory and staging area
+- "git diff --staged" to compare staging area and most recent commit in the repository
+- "git diff commit1 commit2" to compare to commits in the repository
+- "git commit" to add the staging area to the repository as a commit
+- "git reset --hard" to remove all changes in the working direcory
+
+Question 3: How can you use the staging area to make sure you have one commit per logical change?
+Reflection: You can compare the files in your working directory and the staging area to see what changes will be added as to commits to the repository. So if only one commit per logical change should be made you only add the files with the matching change to the staging area and then commit.
