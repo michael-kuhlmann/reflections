@@ -25,3 +25,17 @@ What I learned:
 
 Question 3: How can you use the staging area to make sure you have one commit per logical change?
 Reflection: You can compare the files in your working directory and the staging area to see what changes will be added as to commits to the repository. So if only one commit per logical change should be made you only add the files with the matching change to the staging area and then commit.
+
+What I learned: 
+- "git branch" to see all the existing branches in the repository
+- "git brachn <name>" to create a new branch
+- The current branch is marked with an *
+- "git checkout <branchname>" to change the current branch
+
+Question 4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Reflection: 
+- Situations:
+	- New experimental feature
+	- Same version in another language
+	- A new version with slightly differences but still the same functions
+The branches are used to have different versions quickly accessable. These versions are desired to be separated because they do not represent an update of the current version but a new version that should be worked on next to the original version.
