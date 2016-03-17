@@ -46,4 +46,12 @@ What I learned:
 - Reachability: Each commit c has a parent which is the commit that is checked out when c gets commited
 
 Question 5: How do the diagrams help you visualize the branch structure?
-Reflection: The diagrams show where the branches are still in common and where they first branch. Moreover, they show which commits belong to which branch. With this you can easily construct the branch structure.
+Reflection: The diagrams show where the branches are still in common and where they first branch. Moreover, they show which commits belong to which branch. With this you can easily construct the branch structure
+
+What I learned:
+- "git merge <branch1> <branch2>" to merge two branches: Merge creates a new commit in the checked out branch
+- "git show <commit_id>" to show the differences that were introduced in the commit with <commit_id> compared to its parent
+-"git branch -d <branch>" to delete <branch>
+
+Question 6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Reflection: The result of merging two branches together is a commit in the checked out branch that has the updates of both branches. Since merging combines two branches the merged commit has references to both branches, i.e. two parents. 
