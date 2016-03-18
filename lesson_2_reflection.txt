@@ -55,3 +55,19 @@ What I learned:
 
 Question 6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Reflection: The result of merging two branches together is a commit in the checked out branch that has the updates of both branches. Since merging combines two branches the merged commit has references to both branches, i.e. two parents. 
+
+What I learned:
+- git marks conflicts in merging with three parts: 
+	- Head: The changes of one branch
+	- Middle: The original version
+	- Bottom: The changes of the other branch
+- user has to resolve conflicts on its own, then add the file to the staging area and complete the merging with a "git commit"
+
+Question 7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Reflection:
+Pros:
+	- Fast
+	- Adapts all changes
+	- Notifies when a conflict occurs
+Cons:
+	- Conflicts have to be resolved manually 
