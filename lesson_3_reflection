@@ -1,0 +1,7 @@
+What I learned:
+- "git remote" to show all the remotes available for current repository
+- "git remote add <name> <GitHub URL>" to create a new remote on specified GitHub URL
+- "git push <remote> <branch>" to add the branch and all its commits to remote repository on GitHub
+
+Question 1: When would you want to use a remote repository rather than keeping all your work local?
+Reflection: When I want to share my code or when I am working with other people on a project
