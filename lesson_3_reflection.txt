@@ -5,3 +5,9 @@ What I learned:
 
 Question 1: When would you want to use a remote repository rather than keeping all your work local?
 Reflection: When I want to share my code or when I am working with other people on a project
+
+What I learned:
+- "git pull <remote> <branch>" to pull the commits from the GitHub repository to your local repository
+
+Question 2: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Reflection: When you work with other people on a common project with all having access to the remote repoistory. If someone updates the repositroy while you are making changes locally it will disturb your work if every change is pulled automatically to your local repository.
