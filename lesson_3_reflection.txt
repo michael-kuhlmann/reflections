@@ -11,3 +11,19 @@ What I learned:
 
 Question 2: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Reflection: When you work with other people on a common project with all having access to the remote repoistory. If someone updates the repositroy while you are making changes locally it will disturb your work if every change is pulled automatically to your local repository.
+
+What I learned:
+- Create a copy of a repository of someone else on GitHub: Use the fork button
+- "git remote -v" to show remotes with url
+
+Question 3: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Reflection:
+	Forks:
+		- Copy a repository on GitHub as a remote repository to your account on GitHub. All happens on the GitHub servers
+		- Use it when you want to work on a repository of someone else but do not have permission to make changes to this repository but want your work to be present on GitHub
+	Clones:
+		- Copy a remote on the GitHub servers to your local repository or copy a local repository
+		- Use it when you want to work on a repository locally. Git automatically creates a remote on the GitHub servers when copying a remote from the GitHub servers
+	Branch:
+		- Create a new branch in one repository
+		- Use it when you want to work on different versions simultaneously
