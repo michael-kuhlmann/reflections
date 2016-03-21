@@ -27,3 +27,13 @@ Reflection:
 	Branch:
 		- Create a new branch in one repository
 		- Use it when you want to work on different versions simultaneously
+
+What I learned:
+- "git fetch <remote>" to update the <remote>/master branch to see if there are differences between the remote and your local repository
+- "git pull <remote> <branch>" will do "git fetch <remote>" and then
+automatically merge the two branches via "git merge <remote>/<branch>
+<branch>"
+- Fast-Forward Merges: If you want to merge branch b into branch a and a is a ancestor of b Git will just update the label from a to b
+
+Question 4: What is the benefit of having a copy of the last known state of the remote stored locally?
+Reflection: It helps detecting conflicts by creating a new branch at the last known state and then merge it into the current branch. It also allows fast-forward merging.
