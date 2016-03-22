@@ -37,3 +37,9 @@ automatically merge the two branches via "git merge <remote>/<branch>
 
 Question 4: What is the benefit of having a copy of the last known state of the remote stored locally?
 Reflection: It helps detecting conflicts by creating a new branch at the last known state and then merge it into the current branch. It also allows fast-forward merging.
+
+What I learned:
+- Pull request on GitHub: Could also be called Merge Request. Make a request on GitHub to merge two branches.
+
+Question 5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Reflection: All would have stored their code locally and would discuss different version together at a certain place or would share their code via different platforms like Dropbox. This would definitely be harder than using Git and GitHub.
