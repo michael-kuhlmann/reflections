@@ -62,6 +62,7 @@ What I learned:
 	- Middle: The original version
 	- Bottom: The changes of the other branch
 - user has to resolve conflicts on its own, then add the file to the staging area and complete the merging with a "git commit"
+- "git log -n1" to only show the most recent commit
 
 Question 7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 Reflection:
