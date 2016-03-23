@@ -39,7 +39,10 @@ Question 4: What is the benefit of having a copy of the last known state of the 
 Reflection: It helps detecting conflicts by creating a new branch at the last known state and then merge it into the current branch. It also allows fast-forward merging.
 
 What I learned:
-- Pull request on GitHub: Could also be called Merge Request. Make a request on GitHub to merge two branches.
+- Pull request on GitHub: Could also be called Merge Request. Make a request on GitHub to merge two branches. Use it when collaborating with other people.
 
 Question 5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Reflection: All would have stored their code locally and would discuss different version together at a certain place or would share their code via different platforms like Dropbox. This would definitely be harder than using Git and GitHub.
+
+Question 6: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Reflection: I want to make changes in a seperate branch when it is not something that will improve the current version but that will introduce a new feature that works similar but still in a different way. This allows to have the two versions available at the same time and to work on both seperately. But doing this on the master branch directly avoids the need to do a merge and to solve potential conflicts.
